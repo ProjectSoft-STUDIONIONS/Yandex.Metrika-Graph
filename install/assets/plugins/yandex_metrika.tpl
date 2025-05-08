@@ -2,7 +2,7 @@
 /**
  * Widget: Yandex.Metrika Graph
  *
- * <strong>1.5</strong> Виджет посещаемости сайта
+ * <strong>1.5.0</strong> Виджет посещаемости сайта
  *
  * @category    plugin
  * @internal    @events OnManagerWelcomeHome
@@ -16,7 +16,7 @@
 /**
  * Widget: Yandex.Metrika Graph
  *
- * <strong>1.5</strong> Виджет посещаемости сайта
+ * <strong>1.5.0</strong> Виджет посещаемости сайта
  *
  * @category    plugin
  * @internal    @events OnManagerWelcomeHome
