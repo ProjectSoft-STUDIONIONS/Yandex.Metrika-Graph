@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+/icon.png export-ignore
+/.gitattributes export-ignore
+/readme.md export-ignore
+/screen.png export-ignore
