@@ -1,0 +1,28 @@
+{
+	"name": "yandex.metrika-graph",
+	"version": "1.5.0",
+	"description": "Виджет посещаемости сайта. Отображает график Яндекс.Метрики на стартовой странице админки Evolution CMS.",
+	"keywords": [
+		"EvolutionCMS",
+		"Evolution",
+		"Evo",
+		"Yandex.Metrika",
+		"Graph",
+		"plugin"
+	],
+	"homepage": "https://github.com/ProjectSoft-STUDIONIONS/Yandex.Metrika-Graph#readme",
+	"bugs": {
+		"url": "https://github.com/ProjectSoft-STUDIONIONS/Yandex.Metrika-Graph/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ProjectSoft-STUDIONIONS/Yandex.Metrika-Graph.git"
+	},
+	"license": "GPL-3.0-only",
+	"author": "0test",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

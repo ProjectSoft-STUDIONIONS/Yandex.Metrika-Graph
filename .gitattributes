@@ -5,3 +5,4 @@
 /.gitattributes export-ignore
 /readme.md export-ignore
 /screen.png export-ignore
+/*.json
