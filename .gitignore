@@ -1,0 +1,4 @@
+
+*.sublime*
+*.zip
+node_modules
