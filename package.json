@@ -18,7 +18,7 @@
 		"type": "git",
 		"url": "git+https://github.com/ProjectSoft-STUDIONIONS/Yandex.Metrika-Graph.git"
 	},
-	"license": "GPL-3.0-only",
+	"license": "MIT",
 	"author": "0test",
 	"type": "commonjs",
 	"main": "index.js",
