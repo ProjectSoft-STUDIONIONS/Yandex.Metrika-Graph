@@ -24,7 +24,7 @@ switch($e->name){
 			$data = curl_exec($ch);
 			$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-			if($httpCode > 399) {
+			if((int)$httpCode > 399) {
 				$data = false;
 			}
 			
@@ -114,8 +114,8 @@ switch($e->name){
 				]
 			]
 		], JSON_UNESCAPED_UNICODE);
-		$metrika_content .= '<script src="/assets/plugins/dashboard_widgets/yandex_metrika_graph/highcharts.js"></script>';
-		$metrika_content .=  '<div id="container"></div>';
+		$metrika_content .= '<script src="/assets/plugins/dashboard_widgets/yandex_metrika_graph/highcharts.js"></script>' . PHP_EOL;
+		$metrika_content .=  '<div id="container"></div>' . PHP_EOL;
 		$metrika_content .= "<style>
 	.highcharts-tooltip table.table {
 		font-size: 1.2em;
@@ -227,7 +227,7 @@ switch($e->name){
 			}
 		});
 	})(Highcharts);
-</script>";    
+</script>" . PHP_EOL;    
 
 		$widgets['yandex-metrika'] = array(
 			'menuindex' => $params['menuindex'],
