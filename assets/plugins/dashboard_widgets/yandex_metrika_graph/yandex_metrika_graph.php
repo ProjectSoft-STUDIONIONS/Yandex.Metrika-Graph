@@ -46,7 +46,8 @@ switch($e->name){
 			[ 'name' => 'Просмотры',  'data' => $tmpdata['pageviews'] ],
 			[ 'name' => 'Посетители', 'data' => $tmpdata['users'] ]
 		], JSON_UNESCAPED_UNICODE);
-		$metrika_content .= '<script src="https://code.highcharts.com/highcharts.js"></script>';       
+		$plugin_dir = trim(str_replace( $modx->config['base_path'], '', str_replace('\\', '/', dirname(__FILE__)) ), "\\/");
+		$metrika_content .= '<script src="/' . $plugin_dir . '/highcharts.js"></script>';
 		$metrika_content .=  '<div id="container"></div>';
 		$metrika_content .= "<script>
             Highcharts.chart('container', {
